@@ -6,7 +6,7 @@
     
     
     
-    <title>标签: javase | 一个新的起点，只为更好的开始。</title>
+    <title>学习之路 | 一个新的起点，只为更好的开始。</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     
     <meta name="theme-color" content="#77AAFF">
@@ -40,12 +40,13 @@
 
     
     <meta property="og:type" content="website">
-<meta property="og:title" content="一个新的起点，只为更好的开始。">
-<meta property="og:url" content="http://yoursite.com/tags/javase/index.html">
+<meta property="og:title" content="学习之路">
+<meta property="og:url" content="http://yoursite.com/学习之路/index.html">
 <meta property="og:site_name" content="一个新的起点，只为更好的开始。">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-11-22T12:05:29.044Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一个新的起点，只为更好的开始。">
+<meta name="twitter:title" content="学习之路">
     
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link id="style" rel="stylesheet" href="/css/style.css?v=3.0">
@@ -58,7 +59,7 @@
 
 <body>
     <div id="loading" class="active"></div>
-    <aside id="menu">
+    <aside id="menu" class="hide">
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
@@ -100,7 +101,7 @@
                   </a>
               </li>
             
-              <li class="waves-block waves-effect active">
+              <li class="waves-block waves-effect">
                   <a href="/tags">
                     <i class="icon icon-lg icon-tags"></i>
                     <span>标 签</span><i class="icon icon-lg icon-caret-left"></i>
@@ -145,7 +146,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">标签: javase</div>
+        <div class="flex-col header-title ellipsis">学习之路</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -162,7 +163,7 @@
         </a>
     </div>
 </header>
-<header class="content-header tags-header">
+<header class="content-header page-header">
     
     
     <div class="container fade-scale">
@@ -193,47 +194,63 @@
 </header>
 
 
-    <div class="container body-wrap fade">
+<div class="container body-wrap">
+    <article class="page-article fade" itemprop="blogPage">
         
-            
-            
-            <h5 class="tag-tip">
-                <i class="icon icon-tag"></i>
-                关于
-                <span style="color:rgb(100, 100, 100)">javase</span>
-                共1篇文章
-            </h5>
-            <div class="waterfall">
-            
-                <article class="archive-article" onclick="location.href='/2018/11/14/【JavaSe必知必会】01-计算机基础/'">
-    <div class="archive-article-date">
-      
-      <time class="my-post-time">
-        <i class="icon icon-lg icon-file-text-o"></i>
-        &nbsp;
-          2018-11-14
-      </time>
-    </div>
-    <div class="archive-article-inner">
-      
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a href="/2018/11/14/【JavaSe必知必会】01-计算机基础/">【JavaSe必知必会】01.计算机基础</a>
-    </h3>
-  
-
-
-
-      
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javase/">javase</a></li></ul>
-
-    </div>
-  </article>
-            
+            <div class="card page-about-me flex-row">
+                <a href="/" class="avatar waves-effect waves-circle waves-light"><img src="/img/avatar.jpg"></a>
+                <div class="content flex-col">
+                    <p><strong>Fu.Mr</strong></p>
+                    <p><em></em></p>
+                    <p>业精于勤荒于嬉，行成于思毁于随</p>
+                </div>
             </div>
         
+
+        
+    <div class="page-reward">
+        <nav class="myreward">
+            <a id="rewardBtn" href="javascript:;"><span>打&nbsp;赏</span><span>装成好像很多人打赏的样子</span></a>
+        </nav>
+    </div>
+
+
+
+        
+    
+
+    
+
+    
+
+
+    </article>
+    
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        <span>感谢您的鼓励支持！</span>
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" data-img="/img/dog.png" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check" data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechatPay">&nbsp;&nbsp;微信&nbsp;&nbsp;</span>
+                <span class="reward-toggle-item alipayPay">支付宝</span>
+            </div>
+        </label>
+        
+        <i class="icon icon-caret-up"></i>
+    </div>
+</div>
+
 
 </div>
 
@@ -288,7 +305,7 @@
 
 <!-- 主题配置脚本 -->
 <script>
-var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
 </script>
 
 <!-- jquery -->
